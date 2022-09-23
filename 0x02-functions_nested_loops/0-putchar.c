@@ -1,24 +1,13 @@
-<<<<<<< HEAD
 #include "main.h"
-#inlcude <string.h>
 
 /**
- * main - Entry point
- *
- * Description: prints _putchar using putchar prototype
- *
- * Return: Always 0
- (Success)
+ *reset_to_98 - resets the value of given integer to 98
+ *@n: parameter
+ *Return : nothing
  */
 
-int main(void)
+void reset_to_98(int *n)
 {
-	char str [] =
-	"_putchar";
-	int ch;
-	for (ch = 0; ch < 8; ++ ch)
-	_putchar(str[ch]);
-	_putchar('/n');
+	*n = 98;
 
-	return (0)
 }
