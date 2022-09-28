@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
 #include <stdio.h>
 
@@ -16,4 +16,4 @@ int is_prime(int n, int start);
 void check(char *s, int start, int end, int *flag);
 int wildcmp(char *sl, char *s2);
 
-#endif /*MAIN_H*/
+#endif
