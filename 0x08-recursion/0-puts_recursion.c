@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _puts_recursion - print string in stdout
  * @s: input string
